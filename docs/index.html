@@ -154,8 +154,8 @@
         <section>
             <h2>1. Information Collection and Use</h2>
             <ul>
-                <li><strong>Local Storage:</strong> The core feature of this App is a local ledger. The transaction statements, position details, and personal configuration data you import <strong>are stored only on your local device</strong>. We do not upload your transaction and financial data to our servers or any third-party external servers.</li>
-                <li><strong>iCloud Sync Service:</strong> If you actively enable the iCloud data synchronization feature, your ledger data will be securely synced through the iCloud cloud service provided by Apple, maintaining consistency across your multiple iOS/macOS devices. This synchronization process runs entirely on the secure architecture provided by Apple, and we cannot access or obtain any of your ledger data in iCloud.</li>
+                <li><strong>Local and iCloud Storage:</strong> The transaction statements, position details, and personal configuration data you import are stored on your device and securely synchronized through your private iCloud account using Apple CloudKit. We do not operate a server that receives this data and cannot access or obtain your private iCloud ledger data.</li>
+                <li><strong>Local Credentials:</strong> Your IBKR Flex Token and Query ID are stored only in the Keychain on your device and are not synchronized to iCloud.</li>
                 <li><strong>No Personal Accounts:</strong> The App can be used without registering or logging in to any third-party account. We do not collect any personally identifiable information such as your name, phone number, or email address.</li>
             </ul>
         </section>
@@ -168,7 +168,7 @@
         <section>
             <h2>3. Data Security and Control</h2>
             <ul>
-                <li><strong>Full Data Control:</strong> You can delete specific ledgers or reset all local data within the App at any time. Once you delete the App, all ledger data stored on the local device will also be permanently deleted and cannot be recovered.</li>
+                <li><strong>Full Data Control:</strong> You can delete your ledger data from within the App. Deleting the App removes its local data from the device but does not automatically delete data stored in iCloud. To permanently delete both local and iCloud ledger data, use the data reset function provided in the App before uninstalling it.</li>
                 <li><strong>Device-level Protection:</strong> To protect your financial privacy, it is recommended that you enable system-level security measures such as Face ID/Touch ID on your device.</li>
             </ul>
         </section>
